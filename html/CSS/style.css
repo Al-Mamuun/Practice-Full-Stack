@@ -1,29 +1,25 @@
-.container1{
-    background-color: aquamarine;
-    
+.container1 {
+  background-color: aquamarine;
 }
-.container2{
-    background-color: lightblue;
-   
+.container2 {
+  background-color: lightblue;
 }
-.container3{
-    background-color: lightgreen;
-   
+.container3 {
+  background-color: lightgreen;
 }
-.container4{
-    background-color: lightyellow;
-   
+.container4 {
+  background-color: lightyellow;
 }
-.Mamun{
-    display: flex;
-    flex-direction: row-reverse;
-    gap: 120px;
-    justify-content: center;
-    margin: 5px;
-    padding: 2px;
+.Mamun {
+  display: flex;
+  flex-direction: row;
+  /* flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse; */
 
+  justify-content: center;
 }
 
-.container1 .hmm{
-    text-align: center;
+.container1 .hmm {
+  text-align: center;
 }
