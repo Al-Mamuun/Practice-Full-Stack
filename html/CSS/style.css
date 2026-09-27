@@ -1,0 +1,29 @@
+.container1{
+    background-color: aquamarine;
+    
+}
+.container2{
+    background-color: lightblue;
+   
+}
+.container3{
+    background-color: lightgreen;
+   
+}
+.container4{
+    background-color: lightyellow;
+   
+}
+.Mamun{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 120px;
+    justify-content: center;
+    margin: 5px;
+    padding: 2px;
+
+}
+
+.container1 .hmm{
+    text-align: center;
+}
