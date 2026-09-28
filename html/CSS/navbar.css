@@ -1,0 +1,64 @@
+/* Remove browser default spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Full page */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Main container */
+.container {
+    width: 100%;
+    background-image: linear-gradient(
+        to right,
+        rgb(117, 161, 212),
+        rgb(157, 240, 240)
+    );
+}
+
+/* Main Navbar */
+.navbar {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 0;
+}
+
+/* Website name */
+h1 {
+    color: darkcyan;
+    font-size: 28px;
+}
+
+/* International */
+h1 span {
+    color: darkblue;
+}
+
+/* Navigation links container */
+.nav-links {
+    display: flex;
+    gap: 30px;
+}
+
+/* Links */
+.nav-links a {
+    text-decoration: none;
+    color: #a31717;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+    color: darkblue;
+}
